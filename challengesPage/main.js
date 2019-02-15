@@ -1,13 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
    
-
-
-
   })
-
-
-
-
 function check65() {
     var k = parseInt(document.getElementById("check65_1").value);
     var q = parseInt(document.getElementById("check65_2").value);
@@ -21,7 +14,6 @@ function check65() {
 	}
 }
 
-
 function triarea() {
     var a = parseInt(document.getElementById("triarea_1").value);
     var b = parseInt(document.getElementById("triarea_2").value);
@@ -32,3 +24,18 @@ function triarea() {
   //  return area;
   console.log(area);
 } 
+
+function big_homie() {
+	var k = parseInt(document.getElementById("").value);
+   	var q = parseInt(document.getElementById("").value);
+   	var x = parseInt(document.getElementById("").value);	
+	
+	if (k > q && k > x) {
+		console.log(k);
+	} else if (q > k && q > x) {
+		console.log(q);
+	} else if (x > k && x > q) {
+		console.log(x);
+	}
+}
+}
