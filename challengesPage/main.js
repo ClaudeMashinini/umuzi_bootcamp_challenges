@@ -6,11 +6,11 @@ function check65() {
     var q = parseInt(document.getElementById("check65_2").value);
     console.log(k + " " + q);
 	if (k === 65 || q === 65 || k + q === 65) {
-        console.log(true);
-        document.getElementById("check65_answer").innerHTML = "True";
+        //console.log(true);
+        document.getElementById("check65_answer").innerHTML = "true";
 	} else {
-        console.log(false);
-        document.getElementById("check65_answer").innerHTML = "False";
+        //console.log(false);
+        document.getElementById("check65_answer").innerHTML = "false";
 	}
 }
 
@@ -31,11 +31,14 @@ function big_homie() {
    	var x = parseInt(document.getElementById("").value);	
 	
 	if (k > q && k > x) {
-		console.log(k);
+		document.getElementById("triarea_answer").innerHTML = k;
+		//console.log(k);
 	} else if (q > k && q > x) {
-		console.log(q);
+		document.getElementById("triarea_answer").innerHTML = q;
+		//console.log(q);
 	} else if (x > k && x > q) {
-		console.log(x);
+		document.getElementById("triarea_answer").innerHTML = x;
+		//console.log(x);
 	}
 }
 }
